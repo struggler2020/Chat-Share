@@ -13,5 +13,5 @@ services:
       - TZ=Asia/Shanghai
       - SECRET_KEY=your_admin_secret_key
       - AUTHORIZATION=your_authorization
-      - DOMAIN_CHATGPT=http://127.0.0.1:5005
+      - DOMAIN_CHATGPT=https://chatshare.sfo1.zeabur.app
 

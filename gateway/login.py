@@ -32,6 +32,7 @@ def login():
                 flash('你没有管理员权限。', 'danger')
             elif loginTarget == 'gpt':
                 logurl = getoauth(session.get('user_id'))
+                app.logger.info(f"Generated OAuth URL_GPT: {logurl}")
                 session.clear()
                 return redirect(logurl)
             elif loginTarget == 'claude':

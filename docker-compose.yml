@@ -11,7 +11,7 @@ services:
       - ./data:/app/data
     environment:
       - TZ=Asia/Shanghai
-      - SECRET_KEY=your_admin_secret_key
-      - AUTHORIZATION=your_authorization
+      - SECRET_KEY=568892D12C2923D
+      - AUTHORIZATION=568892D12C2923D
       - DOMAIN_CHATGPT=https://chatshare.sfo1.zeabur.app
 
